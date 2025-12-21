@@ -12,6 +12,7 @@ Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Catalyst/%{upstream_name}-%{upstream_version}.tar.gz
 Patch0:		Catalyst-Authentication-Credential-OpenID-0.16-check.patch
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(Cache::FastMmap) >= 1.280.0
 BuildRequires:	perl(Catalyst) >= 5.700.0
