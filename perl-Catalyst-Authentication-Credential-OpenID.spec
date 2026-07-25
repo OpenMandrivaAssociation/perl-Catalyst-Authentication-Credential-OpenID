@@ -1,15 +1,15 @@
 %define upstream_name    Catalyst-Authentication-Credential-OpenID
-%define upstream_version 0.16
+%define upstream_version 0.19
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	6
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	OpenID credential for Catalyst::Plugin::Authentication framework
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Catalyst/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://dev.catalyst.perl.org/repos/Catalyst/Catalyst-Authentication-Credential-OpenID
+Source0:	https://cpan.metacpan.org/authors/id/B/BO/BOBTFISH/Catalyst-Authentication-Credential-OpenID-%{upstream_version}.tar.gz
 Patch0:		Catalyst-Authentication-Credential-OpenID-0.16-check.patch
 
 BuildRequires:	make
